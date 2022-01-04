@@ -6,7 +6,6 @@ body{
 h1{
     font-size: 40px;
     margin-top: 50px;
-    margin-left: 20px;
 
 }
 .orange-color{
@@ -17,11 +16,11 @@ section{
 }
 .half-width{
     width:50%;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .half-width img{
     width: 100%;
-    height: 100%;
+    height: 10 0%;
 }
 .linked-button{
     text-decoration: none;
@@ -32,4 +31,23 @@ section{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.sec-two{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+}
+.sec-div{
+    width: 50%;
+    margin-left: 20px;
+}
+.sec-div img{
+    width: 100%;
+    height: 100%;
+    
 }
